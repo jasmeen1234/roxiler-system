@@ -1,0 +1,97 @@
+.transactions-table {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactions-table h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .search-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(241, 142, 13);
+  }
+  .search-month{
+    /* margin-right: 10px; */
+    margin-bottom: 20px;
+    background-color: rgb(241, 142, 13);
+  }
+  
+  .search-filter input[type="text"] {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-filter select {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  td {
+    vertical-align: top;
+  }
+  
+  td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #666;
+  }
