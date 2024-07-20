@@ -29,6 +29,7 @@ const TransactionTable = () => {
 
   return (
     <div className="transaction-dashboard">
+      <h2>Transactions Dashboard</h2>
       <div className="transaction-controls">
         <input
           type="text"
