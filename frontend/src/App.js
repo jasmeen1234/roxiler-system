@@ -7,7 +7,7 @@ import BarChart from './BarChart';
 function App() {
   return (
     <div className="App">
-      <UsePagination/>
+      {/* <UsePagination/> */}
       <TransactionTable/>
       <BarChart/>
     </div>
