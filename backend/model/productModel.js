@@ -10,7 +10,7 @@ const productSchema=new Schema({
         required:true
     },
     price:{
-        type:String,
+        type:Number,
         required:true
     },
     description:{
@@ -30,7 +30,7 @@ const productSchema=new Schema({
         required:true
     },
     dateOfSale:{
-        type:String,
+        type:Date,
         required:true
     }
 
