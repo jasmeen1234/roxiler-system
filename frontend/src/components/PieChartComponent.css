@@ -1,0 +1,45 @@
+.pie-chart-dashboard {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pie-chart-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e0b509;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .pie-chart-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pie-chart-controls select {
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pie-chart-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pie-chart {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

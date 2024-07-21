@@ -6,7 +6,7 @@ import PieChartComponent from './PieChartComponent';
 const Dashboard = () => {
   return (
     <div>
-      <h1>Transactions Dashboard</h1>
+      
       <div>
         <TransactionsTable />
       </div>
